@@ -1,0 +1,105 @@
+.container {
+    padding-left: 747px;
+    padding-top: 84px;
+    padding-right: 310px;
+    padding-bottom: 145px;
+    position: relative;
+}
+
+.container>h1 {
+    position: absolute;
+    top: 216.36px;
+    z-index: 5;
+    left: 791px;
+    height: 61px;
+    width: 348px;
+    font-family: 'Manrope';
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: white;
+}
+
+.prices {
+    display: flex;
+    flex-direction: column;
+    width: 863px;
+}
+
+.prices>div {
+    display: flex;
+}
+
+.basic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #D2D2D2;
+    height: 395px;
+    width: 215px;
+}
+
+.basic>span {
+    margin-top: 41px;
+}
+
+.basic>h3 {
+    font-family: 'Manrope';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.basic>img {
+    width: 100%;
+}
+
+.images>img {
+    margin-right: 8px;
+    height: 25px;
+    width: 25px;
+}
+
+.selects>div:last-child {
+    margin-right: 0;
+}
+
+.photo {
+    height: 234.9330291748047px;
+    width: 863px;
+    margin-bottom: 20.07px;
+}
+
+.buttonContainer {
+    display: flex;
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+}
+
+.heart {
+    background-color: transparent;
+    border: none;
+    position: relative;
+}
+
+.Vectorheart {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 376px) {
+    .container {
+        display: none;
+    }
+}

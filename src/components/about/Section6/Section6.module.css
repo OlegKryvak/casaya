@@ -1,0 +1,165 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.inv {
+    display: none;
+}
+
+.images {
+    margin-left: 321px;
+    display: flex;
+}
+
+.images img {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.textBlock {
+    margin-right: 310px;
+    margin-top: 48px;
+    position: relative;
+}
+
+.smallHeadline {
+    height: 19px;
+    width: 152px;
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #171717;
+}
+
+.headline {
+    height: 114px;
+    width: 389.8130798339844px;
+    font-family: 'Manrope';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #171717;
+    margin-top: 15px;
+}
+
+.text {
+    height: 260px;
+    width: 458px;
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3E3E3E;
+    margin-top: 32px;
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 459px;
+    left: -20px;
+}
+
+@media screen and (max-width: 376px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 120px;
+        position: relative;
+    }
+    .inv {
+        display: block;
+        margin-top: 180px;
+        margin-left: 20px;
+        position: relative;
+    }
+    .back {
+        height: 546px;
+        width: 335px;
+    }
+    .button2 {
+        position: absolute;
+        height: 85px;
+        width: 219px;
+        border-radius: 6px;
+        padding: 18px, 28px, 18px, 28px;
+        top: 570px;
+        left: -20px;
+    }
+    .images {
+        margin-left: 10px;
+        margin-top: 500px;
+        width: 330px;
+        display: flex;
+    }
+    .images img {
+        height: 155px;
+        width: 163px;
+        margin-left: 5px;
+        margin-top: 0px;
+        border-radius: 10px;
+    }
+    .textBlock {
+        position: absolute;
+        top: 0;
+        left: 25px;
+    }
+    .smallHeadline {
+        height: 17px;
+        width: 135px;
+        font-family: 'Manrope';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #171717;
+    }
+    .headline {
+        height: 74px;
+        width: 332px;
+        font-family: 'Manrope';
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 37px;
+        letter-spacing: -0.04em;
+        text-align: left;
+        color: #171717;
+        margin-top: 10px;
+    }
+    .text {
+        height: 108px;
+        width: 336px;
+        font-family: 'Manrope';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #3E3E3E;
+        margin-top: 17px;
+    }
+    .button {
+        background-color: transparent;
+        border: none;
+        position: absolute;
+        top: 809px;
+        left: -30px;
+    }
+}

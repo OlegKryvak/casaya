@@ -1,0 +1,124 @@
+.container {
+    width: 1729px;
+    margin-top: 158px;
+    margin-left: 98px;
+    background-color: #F5F5F5;
+    height: 454px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-bottom: 121.27px;
+}
+
+.textBlock {
+    margin-top: 75.82px;
+    margin-left: 91.36px;
+}
+
+.smallHeadline {
+    height: 19px;
+    width: 163px;
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.headline {
+    margin-top: 15px;
+    height: 114.61024475097656px;
+    width: 474.2779541015625px;
+    font-family: 'Manrope';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.text {
+    margin-top: 17.28px;
+    height: 32px;
+    width: 598px;
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3E3E3E;
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+    margin-top: 52.65px;
+}
+
+@media screen and (max-width:376px) {
+    .container {
+        width: 375px;
+        margin-top: 158px;
+        margin-left: 0px;
+        background-color: #F5F5F5;
+        height: 554px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 0px;
+    }
+    .textBlock {
+        margin-top: 42px;
+        margin-left: 20px;
+        position: relative;
+        padding-bottom: 170px;
+    }
+    .smallHeadline {
+        height: 17px;
+        width: 145px;
+        font-family: 'Manrope';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 1.36px;
+    }
+    .headline {
+        margin-top: 10px;
+        height: 115px;
+        width: 245px;
+        font-family: 'Manrope';
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 37px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .text {
+        margin-top: 17px;
+        height: 52px;
+        width: 307px;
+        font-family: 'Manrope';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #3E3E3E;
+    }
+    .button {
+        background-color: transparent;
+        border: none;
+        position: absolute;
+        top: 178px;
+        left: -20px;
+    }
+}

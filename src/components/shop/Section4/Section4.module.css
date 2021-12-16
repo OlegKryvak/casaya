@@ -1,0 +1,207 @@
+.container {
+    padding-left: 747px;
+    padding-top: 84px;
+    padding-right: 310px;
+}
+
+.prices {
+    display: flex;
+    flex-direction: column;
+    width: 863px;
+}
+
+.prices>div {
+    display: flex;
+}
+
+.mobile {
+    display: flex;
+}
+
+.mobile>div {
+    display: flex;
+}
+
+.basic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #D2D2D2;
+    height: 432px;
+    width: 215px;
+}
+
+.hidden {
+    border: 1px solid #D2D2D2;
+}
+
+.basic>span {
+    margin-top: 41px;
+}
+
+.basic>img {
+    width: 100%;
+}
+
+.images>img {
+    margin-right: 8px;
+    height: 25px;
+    width: 25px;
+}
+
+.selects>div:last-child {
+    margin-right: 0;
+}
+
+.photo {
+    height: 234.9330291748047px;
+    width: 863px;
+    margin-bottom: 20.07px;
+}
+
+.buttonContainer {
+    display: flex;
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+}
+
+.heart {
+    background-color: transparent;
+    border: none;
+    position: relative;
+}
+
+.Vectorheart {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 376px) {
+    .container {
+        padding-left: 0;
+        padding-top: 31px;
+        padding-right: 0;
+    }
+    .prices {
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+    }
+    .prices>div {
+        display: flex;
+    }
+    .basic {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid #D2D2D2;
+        height: 355px;
+        width: 170px;
+    }
+    .basic>span {
+        margin-top: 41px;
+    }
+    .basic>img {
+        width: 100%;
+    }
+    .basic>h3 {
+        margin-top: 13px;
+        height: 19px;
+        width: 122px;
+        font-family: 'Manrope';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #1E1E1E;
+    }
+    .basic>span {
+        height: 18px;
+        width: 58px;
+        font-family: 'Manrope';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.06em;
+        text-align: left;
+        color: #1E1E1E;
+        margin-top: 6px;
+    }
+    .basic>h1 {
+        height: 33px;
+        width: 69px;
+        font-family: 'Manrope';
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 33px;
+        letter-spacing: -0.06em;
+        text-align: center;
+        color: #1E1E1E;
+        margin-top: 25px;
+    }
+    .images {
+        margin-top: 9px;
+    }
+    .images>img {
+        margin-right: 8px;
+        height: 25px;
+        width: 25px;
+    }
+    .selects>div:last-child {
+        margin-right: 0;
+    }
+    .photo {
+        height: 130px;
+        width: 345px;
+        margin-left: 15px;
+        margin-top: 41px;
+    }
+    .mobile {
+        display: flex;
+        flex-direction: column;
+    }
+    .mobile>div {
+        display: flex;
+        margin-left: 15px;
+    }
+    .button {
+        background-color: transparent;
+        border: none;
+        margin-top: 14px;
+        margin-left: 0;
+    }
+    .buttonContaine {
+        height: 25px;
+    }
+    .button>img {
+        width: 105px;
+        height: 30px;
+    }
+    .heart {
+        background-color: transparent;
+        border: none;
+        position: relative;
+        height: 30px;
+        width: 30px;
+        margin-left: 0;
+        margin-top: 7px;
+    }
+    .Vectorheart {
+        position: absolute;
+        top: 15px;
+        left: 12px;
+        z-index: 1;
+    }
+    .hidden {
+        display: none;
+    }
+}

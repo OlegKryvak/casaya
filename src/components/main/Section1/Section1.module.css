@@ -1,0 +1,148 @@
+.container {
+    position: relative;
+    height: 1010px;
+    width: 100%;
+    background: url('../../../../src/images/Section1Background.png') no-repeat;
+    background-size: 100%;
+}
+
+.smallHeadline {
+    position: absolute;
+    height: 19px;
+    width: 159px;
+    left: 311px;
+    top: 1166px;
+    border-radius: nullpx;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    top: 290.37px;
+    left: 339px;
+}
+
+.headline {
+    position: absolute;
+    height: 116px;
+    width: 482px;
+    font-family: Manrope;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: -0.06em;
+    text-align: left;
+    top: 317.37px;
+    left: 338px;
+}
+
+.headlineNumber {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 276px;
+    top: 1207px;
+    border-radius: nullpx;
+    font-family: Manrope;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.06em;
+    text-align: left;
+    top: 12px;
+    left: -22px;
+}
+
+.rectangles {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 529.87px;
+    left: 662px;
+}
+
+.rectangle1 {
+    height: 262px;
+    width: 311px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    margin-right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.face {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cursor {
+    position: absolute;
+    top: 218.13px;
+    left: 258px;
+}
+
+.rectangle2 {
+    height: 262px;
+    width: 314px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav {
+    position: absolute;
+    top: 900px;
+}
+
+.terug {
+    position: absolute;
+    left: 338px;
+}
+
+.navigation {
+    position: absolute;
+    left: 914px;
+    display: flex;
+    align-items: center;
+}
+
+.bordered {
+    position: relative;
+}
+
+.ellipseBorder {
+    position: absolute;
+    right: -11px;
+    top: -5px;
+}
+
+.ellipseBlack {
+    position: absolute;
+}
+
+.ellipse {
+    width: 6px;
+    height: 6px;
+    margin-left: 15px;
+}
+
+@media screen and (max-width:376px) {
+    .container {
+        display: none;
+    }
+}

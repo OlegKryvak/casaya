@@ -1,0 +1,312 @@
+.header {
+    height: 1000px;
+    width: 100%;
+    background: url('../../../../src/images/HeaderBackground.png');
+}
+
+.casayaLogo {
+    height: 47px;
+    width: 160.5833282470703px;
+    border-radius: 0px;
+    margin-top: 42px;
+}
+
+.nav {
+    display: flex;
+    margin-top: 33px;
+}
+
+.vectorHeart {
+    height: 16.323034286499023px;
+    width: 19.999961853027344px;
+    margin-top: 15.71px;
+    margin-right: 28px;
+}
+
+.vectorBasket {
+    height: 19.355792999267578px;
+    width: 23.444580078125px;
+    margin-top: 12.87px;
+    margin-right: 48.55px;
+}
+
+.rectangle1 {
+    position: relative;
+    height: 51px;
+    width: 146px;
+    top: -10px;
+}
+
+.menuText {
+    position: absolute;
+    right: 90px;
+    top: 17px;
+    color: #FFFFFF;
+    font-size: 17px;
+}
+
+.menuIcon {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+}
+
+.headline {
+    font-family: Manrope;
+    font-size: 106px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 113px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 236px;
+}
+
+.headline2 {
+    font-family: Manrope;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 7px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.button1 {
+    margin-right: 26px;
+    background-color: transparent;
+    border: none;
+}
+
+.button2 {
+    background-color: transparent;
+    border: none;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 260px;
+}
+
+.arrow {
+    height: 16.0550537109375px;
+    width: 32.31048583984375px;
+}
+
+.ellipses {
+    margin-left: 54px;
+    width: 79px;
+    height: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ellipseBorder {
+    position: relative;
+}
+
+.border {
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+}
+
+.ellipse {
+    position: absolute;
+    top: -1px;
+    right: -5.2px;
+}
+
+.dropdawnmenu ul, .dropdawnmenu li {
+    margin: 0;
+    padding: 0;
+}
+
+.dropdawnmenu ul {
+    list-style: none;
+    width: 100%;
+}
+
+.dropdawnmenu li {
+    float: left;
+    position: relative;
+    width: auto;
+}
+
+.dropdawnmenu a {
+    padding: 10px 10px;
+    background: transparent;
+    color: white;
+    display: block;
+    font: bold 15px sans-serif;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all .90s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .90s ease;
+    transition: all .25s ease;
+}
+
+.a {
+    padding: 0;
+}
+
+.dropdawnmenu li:hover {
+    background: transparent;
+}
+
+.submenu {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    top: 95px;
+    visibility: hidden;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+li:hover ul.submenu {
+    opacity: 1;
+    top: 65px;
+    visibility: visible;
+    border-radius: 10px;
+}
+
+.submenu li {
+    float: none;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.submenu a:hover {
+    background: #DF4B05;
+}
+
+.submenu a {
+    background: white;
+    color: black;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:376px) {
+    .header {
+        height: 667px;
+        width: 100%;
+        background: url('../../../../src/images/HeaderBackground.png');
+    }
+    .casayaLogo {
+        height: 26px;
+        width: 90px;
+        border-radius: 0px;
+        margin-top: 14px;
+        margin-left: -50px;
+    }
+    .nav {
+        display: flex;
+        margin-top: 33px;
+    }
+    .vectorHeart {
+        display: none;
+    }
+    .vectorBasket {
+        display: none;
+    }
+    .rectangle1 {
+        display: none;
+    }
+    .menuText {
+        display: none;
+    }
+    .menuIcon {
+        position: absolute;
+        right: 15px;
+        top: 20px;
+        height: 16.153427124023438px;
+        width: 27px;
+    }
+    .headline {
+        height: 128px;
+        width: 296px;
+        font-family: Manrope;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 64px;
+        letter-spacing: -0.04em;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 168px;
+        margin-left: 39px;
+    }
+    .headline2 {
+        font-family: Manrope;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30.5px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 16px;
+        margin-left: 23px;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 106px;
+    }
+    .button1 {
+        height: 59px;
+        width: 254px;
+        border-radius: 6px;
+        padding: 18px, 28px, 18px, 28px;
+        background-color: transparent;
+        border: none;
+        margin-left: 30px;
+    }
+    .button2 {
+        background-color: transparent;
+        border: none;
+        height: 59px;
+        width: 320px;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+    .button22 {
+        background-color: transparent;
+        border: none;
+        height: 100px;
+        width: 320px;
+    }
+    .navigation {
+        display: none;
+    }
+    .arrow {
+        display: none;
+    }
+    .ellipses {
+        display: none;
+    }
+    .ellipseBorder {
+        display: none;
+    }
+    .border {
+        display: none;
+    }
+    .ellipse {
+        display: none;
+    }
+}

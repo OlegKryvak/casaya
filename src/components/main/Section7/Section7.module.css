@@ -1,0 +1,171 @@
+.container {
+    margin-top: 126.42px;
+}
+
+.smallHeadline {
+    height: 19px;
+    width: 152px;
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 311px;
+}
+
+.headline {
+    margin-top: 15px;
+    margin-left: 310px;
+    height: 64.29688262939453px;
+    width: 702px;
+    font-family: 'Manrope';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: -0.04em;
+    text-align: left;
+}
+
+.text {
+    margin-top: 20px;
+    margin-left: 310px;
+    height: 77px;
+    width: 573px;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32.4px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3E3E3E;
+}
+
+.photos {
+    display: flex;
+}
+
+.images {
+    margin-left: 310px;
+    width: 640px;
+    margin-top: 59.28px;
+}
+
+.images img {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.button1 {
+    background-color: transparent;
+    border: none;
+    margin-top: 47px;
+}
+
+.screenContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 130px;
+    margin-top: 70px;
+}
+
+.button2 {
+    margin-top: 47px;
+    background-color: transparent;
+    border: none;
+}
+
+@media screen and (max-width:376px) {
+    .container {
+        margin-top: 53px;
+    }
+    .smallHeadline {
+        height: 19px;
+        width: 152px;
+        font-family: 'Manrope';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 25px;
+    }
+    .headline {
+        margin-top: 10px;
+        margin-left: 24px;
+        height: 74px;
+        width: 282px;
+        font-family: 'Manrope';
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 37px;
+        letter-spacing: -0.04em;
+        text-align: left;
+    }
+    .text {
+        margin-top: 17px;
+        margin-left: 20px;
+        height: 108px;
+        width: 286px;
+        font-family: 'Manrope';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #3E3E3E;
+    }
+    .photos {
+        display: flex;
+        flex-direction: column;
+    }
+    .images {
+        margin-left: 20px;
+        width: 350px;
+        margin-top: 20px;
+        position: relative;
+    }
+    .images>img {
+        margin-right: 10px;
+        margin-top: 10px;
+        height: 155px;
+        width: 163px;
+    }
+    .button1 {
+        background-color: transparent;
+        border: none;
+        margin-top: 7px;
+        height: 79px;
+        width: 242px;
+        position: absolute;
+        top: 339px;
+        left: -20px;
+    }
+    .button11 {
+        height: 79px;
+        width: 242px;
+    }
+    .screenContainer {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-top: 150px;
+        width: 335px;
+        height: 546px;
+        position: relative;
+    }
+    .button2 {
+        margin-top: 29px;
+        background-color: transparent;
+        border: none;
+        position: absolute;
+        top: 539px;
+        left: -20px;
+    }
+}

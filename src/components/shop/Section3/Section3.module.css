@@ -1,0 +1,321 @@
+.container {
+    margin-top: 17px;
+    display: flex;
+}
+
+.menu {
+    margin-left: 310px;
+}
+
+.filters {
+    display: none;
+}
+
+.over {
+    display: none;
+}
+
+.menu>div {
+    height: 30px;
+    width: 294px;
+    text-transform: uppercase;
+    font-family: 'Manrope';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1E1E1E;
+}
+
+.menu>img {
+    height: 656px;
+    width: 420px;
+}
+
+.content {
+    margin-left: 20px;
+}
+
+.selects {
+    display: flex;
+    width: 863px;
+}
+
+.selects>div {
+    height: 45px;
+    width: 275px;
+    border-radius: 5px;
+    margin-right: 18px;
+}
+
+.prices {
+    display: flex;
+    flex-direction: column;
+}
+
+.prices>div {
+    display: flex;
+}
+
+.mobile {
+    display: flex;
+}
+
+.mobile>div {
+    display: flex;
+}
+
+.basic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #D2D2D2;
+    height: 435px;
+    width: 215px;
+}
+
+.hidden {
+    border: 1px solid #D2D2D2;
+}
+
+.basic>span {
+    margin-top: 41px;
+}
+
+.basic>img {
+    width: 100%;
+}
+
+.images>img {
+    margin-right: 8px;
+    height: 25px;
+    width: 25px;
+}
+
+.selects>div:last-child {
+    margin-right: 0;
+}
+
+.photo {
+    height: 234.9330291748047px;
+    width: 863px;
+    margin-bottom: 20.07px;
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+}
+
+.heart {
+    background-color: transparent;
+    border: none;
+    position: relative;
+}
+
+.Vectorheart {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    z-index: 1;
+}
+
+@media screen and (max-width:376px) {
+    .container {
+        margin-top: 17px;
+        display: flex;
+        flex-direction: column;
+    }
+    .menu {
+        display: none;
+    }
+    .over {
+        background-color: transparent;
+        border: none;
+        display: block;
+        height: 44px;
+        width: 345px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px 0px #00000040;
+        position: relative;
+        margin-left: 15px;
+        margin-top: 21px;
+    }
+    .over>img {
+        position: absolute;
+        top: 16.09px;
+        left: 15px;
+        height: 11.96550178527832px;
+        width: 20px;
+    }
+    .over>span {
+        height: 20px;
+        width: 210px;
+        font-family: 'Manrope';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #1E1E1E;
+        text-transform: uppercase;
+        position: absolute;
+        left: 45px;
+        top: 12px;
+    }
+    .filters {
+        display: block;
+        background-color: transparent;
+        border: none;
+        display: block;
+        height: 44px;
+        width: 345px;
+        border-radius: 5px;
+        margin-left: 10px;
+        margin-top: 13px;
+    }
+    .menu>div {
+        height: 30px;
+        width: 294px;
+        text-transform: uppercase;
+        font-family: 'Manrope';
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #1E1E1E;
+    }
+    .menu>img {
+        height: 656px;
+        width: 375px;
+    }
+    .content {
+        margin-left: 0;
+    }
+    .selects {
+        display: none;
+    }
+    .selects>div {
+        height: 45px;
+        width: 275px;
+        border-radius: 5px;
+        margin-right: 18px;
+    }
+    .prices {
+        display: flex;
+        flex-direction: column;
+    }
+    .prices>div {
+        display: flex;
+    }
+    .basic {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid #D2D2D2;
+        height: 357px;
+        width: 172px;
+    }
+    .basic>span {
+        margin-top: 41px;
+    }
+    .basic>img {
+        width: 100%;
+    }
+    .basic>h3 {
+        margin-top: 13px;
+        height: 19px;
+        width: 72px;
+        font-family: 'Manrope';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #1E1E1E;
+    }
+    .basic>span {
+        height: 18px;
+        width: 58px;
+        font-family: 'Manrope';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.06em;
+        text-align: left;
+        color: #1E1E1E;
+        margin-top: 6px;
+    }
+    .basic>h1 {
+        height: 33px;
+        width: 69px;
+        font-family: 'Manrope';
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 33px;
+        letter-spacing: -0.06em;
+        text-align: center;
+        color: #1E1E1E;
+        margin-top: 25px;
+    }
+    .images {
+        margin-top: 9px;
+    }
+    .images>img {
+        margin-right: 8px;
+        height: 25px;
+        width: 25px;
+    }
+    .selects>div:last-child {
+        margin-right: 0;
+    }
+    .photo {
+        height: 130px;
+        width: 345px;
+        margin-left: 15px;
+        margin-top: 41px;
+    }
+    .mobile {
+        display: flex;
+        flex-direction: column;
+    }
+    .mobile>div {
+        display: flex;
+        margin-left: 15px;
+    }
+    .button {
+        background-color: transparent;
+        border: none;
+        margin-top: 14px;
+        margin-left: 0;
+    }
+    .button>img {
+        width: 105px;
+        height: 30px;
+    }
+    .heart {
+        background-color: transparent;
+        border: none;
+        position: relative;
+        height: 30px;
+        width: 30px;
+        margin-left: 0;
+    }
+    .Vectorheart {
+        position: absolute;
+        top: 10px;
+        left: 12px;
+        z-index: 1;
+    }
+    .hidden {
+        display: none;
+    }
+}

@@ -1,0 +1,255 @@
+.container {
+    margin-top: 0;
+}
+
+.headline {
+    height: 51px;
+    width: 383px;
+    font-family: Manrope;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: -0.04em;
+    margin-top: 109.87px;
+    margin-left: 770px;
+    display: flex;
+    justify-content: center;
+}
+
+.headlineSmall {
+    height: 35px;
+    width: 592px;
+    font-family: Manrope;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    margin-top: 9px;
+    margin-left: 664px;
+    text-align: center;
+    margin-bottom: 49px;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 103px;
+}
+
+.arrowLeft {
+    width: 53px;
+    height: 53px;
+    margin-right: 20.64px;
+}
+
+.arrowRight {
+    width: 53px;
+    height: 53px;
+    margin-left: 22px;
+}
+
+.carouselBlock {
+    height: 449px;
+    width: 1299px;
+    border-radius: 8px;
+    border: 1px solid #E5E5E5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carouselBlockText {
+    margin-top: 24px;
+    margin-left: 20px;
+}
+
+.carouselBlockTextHeadline {
+    height: 38px;
+    width: 384px;
+    font-family: Manrope;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: -0.04em;
+    margin-left: 8px;
+    margin-top: 13.39px;
+}
+
+.carouselBlockTextPar {
+    margin-left: 8px;
+    margin-top: 15px;
+    height: 156px;
+    width: 645px;
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32.4px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3E3E3E;
+}
+
+.carouselBlockLine {
+    height: 0px;
+    width: 740.0000000000028px;
+    border: 1px solid #C5C5C5
+}
+
+.carouselBlockTextHeadline2 {
+    margin-top: 10px;
+    margin-left: 8px;
+    height: 29px;
+    width: 448px;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #252525;
+}
+
+.count {
+    margin-top: 15px;
+    margin-left: 8px;
+    height: 37px;
+    width: 57px;
+}
+
+.carouselImage {
+    height: 100%;
+}
+
+@media screen and (max-width:376px) {
+    .container {
+        margin-top: 0;
+    }
+    .headline {
+        height: 34px;
+        width: 256px;
+        font-family: 'Manrope';
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 34px;
+        letter-spacing: -0.04em;
+        text-align: left;
+        margin-left: 0;
+    }
+    .headlineSmall {
+        height: 29px;
+        width: 231px;
+        font-family: 'Manrope';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 20px;
+        color: #252525;
+        margin-top: 6px;
+        margin-bottom: 9px;
+    }
+    .carousel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .arrowLeft {
+        position: absolute;
+        top: 720px;
+        left: 245px;
+        height: 40px;
+        width: 40px;
+    }
+    .arrowRight {
+        position: absolute;
+        top: 720px;
+        left: 272px;
+        height: 40px;
+        width: 40px;
+    }
+    .carouselBlock {
+        position: relative;
+        height: 780px;
+        width: 335px;
+        border-radius: 8px;
+        border: 1px solid #E5E5E5;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 2px 9px 0px #0000001C;
+    }
+    .carouselBlockText {
+        margin-top: 24px;
+        margin-left: 20px;
+        margin-top: 230px;
+    }
+    .carouselBlockTextHeadline {
+        height: 25px;
+        width: 325px;
+        font-family: 'Manrope';
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 29px;
+        letter-spacing: -0.04em;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .carouselBlockTextPar {
+        margin-left: 8px;
+        margin-top: 15px;
+        height: 313px;
+        width: 290px;
+        font-family: 'Manrope';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #3E3E3E;
+    }
+    .carouselBlockLine {
+        height: 0px;
+        width: 290px;
+        border: 1px solid #C5C5C5;
+        margin-top: 45px;
+    }
+    .carouselBlockTextHeadline2 {
+        position: absolute;
+        margin-left: 8px;
+        height: 52px;
+        width: 302px;
+        font-family: 'Manrope';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #252525;
+        top: 640px;
+    }
+    .count {
+        margin-top: 12px;
+        margin-left: 8px;
+        height: 37px;
+        width: 57px;
+    }
+    .carouselImage {
+        height: 219px;
+        width: 335px;
+        position: absolute;
+        top: 0;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+}

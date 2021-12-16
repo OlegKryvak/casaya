@@ -1,0 +1,116 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 63px;
+    box-shadow: 0px 2px 8px 0px #0000001C;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    margin-right: 67.29px;
+    margin-left: 1188px;
+}
+
+.basket {
+    margin-right: 53.85px;
+    height: 22px;
+    width: 22px;
+}
+
+.heart {
+    margin-right: 20px;
+    height: 17.7935791015625px;
+    width: 19.999961853027344px;
+}
+
+.gift {
+    margin-right: 20px;
+    height: 22px;
+    width: 22px;
+}
+
+.menu {
+    height: 39px;
+    width: 122.418701171875px;
+}
+
+.logo {
+    margin-left: 312px;
+    height: 27.891891479492188px;
+    width: 96px;
+}
+
+.dropdawnmenu ul, .dropdawnmenu li {
+    margin: 0;
+    padding: 0;
+}
+
+.dropdawnmenu ul {
+    list-style: none;
+    width: 100%;
+}
+
+.dropdawnmenu li {
+    float: left;
+    position: relative;
+    width: auto;
+}
+
+.dropdawnmenu a {
+    padding: 10px 10px;
+    background: transparent;
+    color: white;
+    display: block;
+    font: bold 15px sans-serif;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all .90s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .90s ease;
+    transition: all .25s ease;
+}
+
+.dropdawnmenu li:hover {
+    background: transparent;
+}
+
+.submenu {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    top: 95px;
+    visibility: hidden;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+li:hover ul.submenu {
+    opacity: 1;
+    top: 50px;
+    visibility: visible;
+    border-radius: 10px;
+}
+
+.submenu li {
+    float: none;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.submenu a:hover {
+    background: #DF4B05;
+}
+
+.submenu a {
+    background: black;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 376px) {
+    .container {
+        display: none;
+    }
+}

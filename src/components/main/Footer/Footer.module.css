@@ -1,0 +1,349 @@
+.footer {
+    height: 696px;
+    background-color: #141E1C;
+}
+
+.container {
+    padding-top: 90.27px;
+    padding-left: 310px;
+    padding-right: 312px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    margin-top: 25px;
+    height: 204px;
+    width: 204px;
+    font-family: 'Manrope';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.algemeen {
+    margin-bottom: 19.73px;
+    height: 31px;
+    width: 90px;
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #697674;
+}
+
+.column2 div {
+    height: 172px;
+    width: 162px;
+    font-family: Manrope;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.shop {
+    height: 31px;
+    width: 47px;
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #697674;
+    margin-bottom: 20px;
+}
+
+.column3 div {
+    height: 215px;
+    width: 113px;
+    font-family: 'Manrope';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.volg {
+    height: 31px;
+    width: 261px;
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #697674;
+    margin-bottom: 15px;
+}
+
+.werkuren {
+    height: 31px;
+    width: 95px;
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #697674;
+    margin-bottom: 9px;
+}
+
+.schedule div {
+    height: 224px;
+    width: 77px;
+    font-family: 'Manrope';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.social {
+    margin-top: 15px;
+}
+
+.line {
+    height: 0px;
+    width: 307.00000000000114px;
+    border: 1px solid #FFFFFF;
+    margin-top: 26.12px;
+}
+
+.werkuren {
+    margin-top: 20px;
+}
+
+.schedule {
+    display: flex;
+    justify-content: space-between;
+    width: 176px;
+    margin-top: 9px;
+}
+
+.footerLine {
+    height: 0px;
+    width: 1920px;
+    border: 1px solid #FFFFFF;
+    margin-top: 58px;
+}
+
+.rightsContainer {
+    display: flex;
+    align-items: center;
+    margin-left: 310px;
+    height: 97px;
+}
+
+.rightsContainer div {
+    font-family: 'Manrope';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.privacy {
+    margin-left: 66px;
+    margin-right: 27px;
+}
+
+.terms {
+    margin-right: 573px;
+}
+
+@media screen and (max-width:376px) {
+    .footer {
+        height: 1523px;
+        background-color: #141E1C;
+    }
+    .container {
+        padding-top: 117px;
+        padding-left: 0px;
+        padding-right: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text {
+        margin-top: 25px;
+        height: 204px;
+        width: 204px;
+        font-family: 'Manrope';
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+    }
+    .algemeen {
+        margin-bottom: 19.73px;
+        height: 31px;
+        width: 90px;
+        font-family: 'Manrope';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 31px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #697674;
+    }
+    .column2 div {
+        height: 172px;
+        width: 162px;
+        font-family: Manrope;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 43px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    .shop {
+        height: 31px;
+        width: 47px;
+        font-family: 'Manrope';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 31px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #697674;
+        margin-bottom: 20px;
+    }
+    .column3 {
+        margin-top: 51px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .column3 div {
+        height: 215px;
+        width: 113px;
+        font-family: 'Manrope';
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 43px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    .column4 {
+        margin-top: 51px;
+        display: flex;
+        flex-direction: column;
+    }
+    .volg {
+        margin-left: 55px;
+        height: 31px;
+        width: 261px;
+        font-family: 'Manrope';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 31px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #697674;
+        margin-bottom: 15px;
+    }
+    .werkuren {
+        display: none;
+    }
+    .schedule div {
+        height: 224px;
+        width: 77px;
+        font-family: 'Manrope';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    .maandag {
+        display: none;
+    }
+    .hours {
+        display: none;
+    }
+    .social {
+        margin-top: 15px;
+        height: 55px;
+        width: 200px;
+        margin-left: 80px;
+    }
+    .line {
+        height: 0px;
+        width: 375px;
+        border: 1px solid #FFFFFF;
+        margin-top: 26.12px;
+    }
+    .werkuren {
+        margin-top: 20px;
+    }
+    .schedule {
+        display: flex;
+        justify-content: space-between;
+        width: 176px;
+        margin-top: 9px;
+    }
+    .footerLine {
+        display: none;
+    }
+    .rightsContainer {
+        display: flex;
+        flex-direction: column;
+        height: 97px;
+        margin-left: 0;
+    }
+    .rightsContainer div {
+        font-family: 'Manrope';
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+        margin-top: 45px;
+    }
+    .privacy {
+        margin-left: 66px;
+        margin-right: 27px;
+    }
+    .terms {
+        margin-right: 0;
+    }
+}

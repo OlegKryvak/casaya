@@ -1,0 +1,125 @@
+.home {
+    height: 25px;
+    width: 167px;
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 310px;
+    margin-top: 17px;
+    margin-bottom: 13px;
+}
+
+.container {
+    height: 195px;
+    width: 100%;
+    background-color: #F9F9F9;
+    padding-top: 34px;
+    display: flex;
+}
+
+.headline {
+    display: flex;
+    align-items: center;
+    margin-left: 310px;
+}
+
+.headline>img {
+    height: 44px;
+    width: 44px;
+}
+
+.column2 .headline {
+    margin-left: 0;
+}
+
+.column2 .headline>div {
+    height: 70px;
+    width: 347px;
+    font-family: 'Manrope';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: -0.015em;
+    text-align: left;
+}
+
+.column2 {
+    margin-left: 43px;
+}
+
+.gift {
+    margin-left: 0;
+}
+
+.headline>div {
+    height: 70px;
+    width: 398px;
+    margin-left: 16px;
+    font-family: 'Manrope';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: -0.015em;
+    text-align: left;
+}
+
+.button1 {
+    margin-left: 372px;
+    margin-top: 26px;
+    display: flex;
+    align-items: center;
+}
+
+.button1>span {
+    height: 20px;
+    width: 117px;
+    font-family: 'Manrope';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #396036;
+}
+
+.button1>img {
+    margin-left: 15px;
+    height: 20px;
+    width: 20px;
+}
+
+.button2 {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 26px;
+}
+
+.button2>span {
+    height: 20px;
+    width: 161px;
+    font-family: 'Manrope';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #396036;
+}
+
+@media screen and (max-width:376px) {
+    .home {
+        display: none;
+    }
+    .container {
+        display: none;
+    }
+}

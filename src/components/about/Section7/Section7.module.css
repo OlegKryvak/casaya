@@ -1,0 +1,99 @@
+.container {
+    height: 847px;
+    background-color: #F9F9F9;
+    padding-top: 109px;
+}
+
+.smallHeadline {
+    margin-left: 313px;
+    height: 19px;
+    width: 124px;
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #171717;
+}
+
+.headline {
+    margin-top: 15px;
+    margin-left: 310px;
+    height: 58px;
+    width: 403px;
+    font-family: 'Manrope';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #171717;
+}
+
+.text {
+    margin-top: 14px;
+    margin-left: 313px;
+    height: 32px;
+    width: 320px;
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.images {
+    display: flex;
+    margin-left: 313px;
+    margin-top: 82px;
+    margin-right: 91px;
+    height: 504px;
+}
+
+.images img {
+    margin-right: 20px;
+}
+
+.two {
+    margin-top: 78px;
+    display: flex;
+    flex-direction: column;
+}
+
+.photo1 {
+    height: 504px;
+    width: 307px;
+}
+
+.photo2 {
+    margin-bottom: 20px;
+    height: 239px;
+    width: 310px;
+}
+
+.photo3 {
+    height: 167px;
+    width: 310px;
+}
+
+.photo4 {
+    height: 463px;
+    width: 200px;
+}
+
+.photo6 {
+    height: 297px;
+    width: 309px;
+    margin-top: 122px;
+}
+
+@media screen and (max-width:376px) {
+    .container {
+        display: none;
+    }
+}

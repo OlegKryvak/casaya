@@ -1,0 +1,144 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 104px;
+    margin-right: 285px;
+}
+
+.images {
+    display: flex;
+}
+
+.images>img {
+    height: 497px;
+    width: 310px;
+    margin-right: 20px;
+}
+
+.textBlock {
+    margin-left: 310px;
+    margin-right: 110px;
+}
+
+.smallHeadline {
+    height: 19px;
+    width: 193px;
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #171717;
+}
+
+.headline {
+    height: 55px;
+    width: 462px;
+    font-family: 'Manrope';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.text1 {
+    height: 197.5px;
+    width: 510px;
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 26px;
+    color: #3E3E3E;
+}
+
+.text2 {
+    height: 127px;
+    width: 550px;
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 25.5px;
+    color: #3E3E3E;
+}
+
+@media screen and (max-width: 376px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 34px;
+    }
+    .images {
+        display: flex;
+    }
+    .images>img {
+        height: 497px;
+        width: 310px;
+        margin-right: 20px;
+    }
+    .textBlock {
+        margin-left: 20px;
+    }
+    .smallHeadline {
+        height: 17px;
+        width: 172px;
+        font-family: 'Manrope';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #171717;
+    }
+    .headline {
+        height: 17px;
+        width: 172px;
+        font-family: 'Manrope';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 17px;
+    }
+    .text1 {
+        height: 250px;
+        width: 335px;
+        font-family: 'Manrope';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 31px;
+        color: #3E3E3E;
+    }
+    .text2 {
+        height: 127px;
+        width: 300px;
+        font-family: 'Manrope';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 31px;
+        color: #3E3E3E;
+    }
+}
